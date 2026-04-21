@@ -1,4 +1,5 @@
 import Navbar from "#components/Navbar";
+import { Dock } from "./Dock";
 import Welcome from "./Welcome";
 
-export { Navbar, Welcome };
+export { Navbar, Welcome, Dock };
