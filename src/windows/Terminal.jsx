@@ -30,7 +30,8 @@ const Terminal = () => {
               <ul>
                 {items.map((item, i) => (
                   <li key={i}>
-                    {item} {i < items.length - 1 ? "," : ""}
+                    {item}
+                    {i < items.length - 1 ? "," : ""}
                   </li>
                 ))}
               </ul>
