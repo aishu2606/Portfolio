@@ -27,9 +27,12 @@ const Resume = () => {
           <Download className="icon" />
         </a>
       </div>
-      <Document file="files/resume.pdf">
-        <Page pageNumber={1} renderTextLayer renderAnnotationLayer />
-      </Document>
+      <div className="max-h-[70vh] overflow-y-auto">
+        <Document file="files/resume.pdf">
+          <Page pageNumber={1} renderTextLayer renderAnnotationLayer />
+          <Page pageNumber={2} renderTextLayer renderAnnotationLayer />
+        </Document>
+      </div>
     </>
   );
 };
