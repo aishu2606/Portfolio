@@ -42,18 +42,18 @@ const dockApps = [
     icon: "finder.png",
     canOpen: true,
   },
-  {
-    id: "safari",
-    name: "Articles", // was "Safari"
-    icon: "safari.png",
-    canOpen: true,
-  },
   // {
-  //   id: "photos",
-  //   name: "Gallery", // was "Photos"
-  //   icon: "photos.png",
+  //   id: "safari",
+  //   name: "Articles", // was "Safari"
+  //   icon: "safari.png",
   //   canOpen: true,
   // },
+  {
+    id: "homelab",
+    name: "HomeLab", // was "HomeLab"
+    icon: "homelab.png",
+    canOpen: true,
+  },
   {
     id: "contact",
     name: "Contact", // or "Get in touch"
@@ -557,6 +557,7 @@ const WINDOW_CONFIG = {
   contact: { isOpen: false, zIndex: INITIAL_Z_INDEX, data: null },
   resume: { isOpen: false, zIndex: INITIAL_Z_INDEX, data: null },
   safari: { isOpen: false, zIndex: INITIAL_Z_INDEX, data: null },
+  homelab: { isOpen: false, zIndex: INITIAL_Z_INDEX, data: null },
   photos: { isOpen: false, zIndex: INITIAL_Z_INDEX, data: null },
   terminal: { isOpen: false, zIndex: INITIAL_Z_INDEX, data: null },
   txtfile: { isOpen: false, zIndex: INITIAL_Z_INDEX, data: null },

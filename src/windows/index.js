@@ -5,5 +5,6 @@ import Finder from "#windows/Finder";
 import Text from "#windows/Text";
 import Image from "#windows/Image";
 import Contact from "#windows/Contact";
+import HomeLab from "#windows/HomeLab";
 
-export { Terminal, Safari, Resume, Finder, Text, Image, Contact };
+export { Terminal, Safari, Resume, Finder, Text, Image, Contact, HomeLab };

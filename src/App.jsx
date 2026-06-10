@@ -10,6 +10,7 @@ import {
   Text,
   Image,
   Contact,
+  HomeLab,
 } from "#windows";
 
 gsap.registerPlugin(Draggable);
@@ -24,6 +25,7 @@ function App() {
       <Terminal />
       <Safari />
       <Resume />
+      <HomeLab />
       <Finder />
       <Text />
       <Image />
